@@ -1,0 +1,81 @@
+.container{
+    background:linear-gradient(45deg , #ed1e79 , #662d8c);
+    width:230PX;
+    padding: 30px;
+    margin:auto;
+    border-radius: 15px;
+    height: auto;
+    color: white;
+    text-align: center;
+    transition:all 600ms ease;
+    
+
+}
+
+ /* .container :hover{
+
+    background:linear-gradient(45deg, #662d8c , #ed1e79 )
+    
+    
+} */
+
+h2{
+
+    text-decoration: underline;
+    text-align: center;
+    
+    
+}
+
+input{
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    width: 190px;
+    height: 30px;
+    
+}
+
+.in-ele{
+    margin-bottom: 15px;
+
+}
+label{
+    
+}
+
+button{
+    background: linear-gradient(45deg  , #41f7c9 40% , #42da4f 50% );
+
+    border:none;
+    outline:none;
+    border-radius: 5px;
+
+    width:90px;
+    height:25px;
+    cursor:pointer;
+    transition:all 600ms ease;
+} 
+
+ button:hover {
+    
+    border-radius: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+output{
+    color:yellow
+}
+
+

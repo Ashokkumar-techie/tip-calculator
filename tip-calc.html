@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="tip.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Tip Calculator</h2>
+        <form id="frm" autocomplete="off">
+            <div class="in-ele">
+                <label for="bamt">Bill Amount (&#8377;)</label><br>
+                <input type="number" id="bamt" placeholder="Total Bill Amount" autofocus required><br>
+            </div>
+            <div class="in-ele">
+                <label for="tipp">Tip Percentage (%)</label><br>
+                <input type="number" id="tipp" placeholder="Tip % ex(10)" required><br>
+            </div>
+            <div class="in-ele">
+                <label for="nop">Number of People</label><br>
+                <input type="number" id="nop" placeholder="Enter No of People" required><br>
+            </div>
+            <div class="in-ele">
+                <button type="button" onclick="tipCalculate()">Calculate</button>
+                <button type="reset">Reset</button>
+
+            </div>
+            <div class="in-ele">
+                <output id="tippp"></output>
+                <output id="tottip"></output>
+                <output id="totbill"></output>
+            </div>
+        </form>
+    </div>
+    
+        
+    
+    <script src="tip.js"></script>
+    
+</body>
+
+</html>
